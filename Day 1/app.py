@@ -11,6 +11,4 @@ input_file = open(sys.argv[1], 'r')
 numbers = extract_num_input(input_file)
 input_file.close()
 
-print(numbers)
-
 print("sum: " + str(sum_arr(numbers)))
